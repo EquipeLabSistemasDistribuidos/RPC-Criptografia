@@ -1,4 +1,3 @@
-from msilib.schema import TextStyle
 from xmlrpc.server import SimpleXMLRPCServer
 import cryptocode as cc
 
