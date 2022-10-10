@@ -1,5 +1,5 @@
 # RPC em python
-Código apresentado pelo professor em sala de aula com pequenos upgrades.
+Código desenvolvido em python para a disciplina de Laboratório de Sistemas Distribuídos no período 2022.4.
 
 # Biblioteca
 cryptocode
