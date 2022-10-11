@@ -11,5 +11,7 @@ pip install cryptocode
 
 # :arrow_forward: Executando o código
 1º: python server.py
+
 2º python client.py
+
 Digite um valor a ser criptografado
