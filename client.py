@@ -1,11 +1,10 @@
-from ipaddress import ip_address
 import xmlrpc.client
 
 servidor = input("Servidor: ")
 setence = input("Digite o texto a ser criptografado: ")
 
 try:
-    with xmlrpc.client.ServerProxy("http://"+servidor+":8000/") as proxy:
+    with xmlrpc.client.ServerProxy("http://"+servidor+":1234/") as proxy:
         encryptedText = proxy.encryptorText(setence)
         print("Texto criptografado: {}" .format(encryptedText))
 

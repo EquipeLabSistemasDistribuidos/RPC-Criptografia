@@ -1,9 +1,14 @@
 from xmlrpc.server import SimpleXMLRPCServer
 import cryptocode as cc
+import get_ip as gip
+
+#Obtendo IP da máquina atual
+IP = gip.get_ip()
+print(IP)
 
 senha = "superSenha"
-server = SimpleXMLRPCServer(("localhost", 8000))
-print("Listening on port 8000...")
+server = SimpleXMLRPCServer((IP, 1234))
+print("Listening on port 1234...")
 
 def encryptorText(value):
     print("----------------------------------------------")
